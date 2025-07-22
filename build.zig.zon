@@ -24,7 +24,7 @@
     // original project's identity. Thus it is recommended to leave the comment
     // on the following line intact, so that it shows up in code reviews that
     // modify the field.
-    .fingerprint = 0xf73eae91f3bb81f9, // Changing this has security and trust implications.
+    .fingerprint = 0xf73eae91a08e5ff7, // Changing this has security and trust implications.
 
     // Tracks the earliest Zig version that the package considers to be a
     // supported use case.
@@ -78,7 +78,7 @@
     .paths = .{
         "build.zig",
         "build.zig.zon",
-        "src/main.zig",
+        "src",
         // For example...
         //"LICENSE",
         //"README.md",
