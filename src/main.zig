@@ -25,6 +25,7 @@ fn bar(x: u8) !u8 {
     }
 }
 
+// Main function to read user input and demonstrate error handling
 pub fn main() !void {
     var buffer: [100]u8 = undefined;
     const stdin = std.io.getStdIn().reader();
